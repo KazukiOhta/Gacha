@@ -11,13 +11,16 @@ import UIKit
 
 class ResultViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+    
     
     @IBOutlet var haikeiImageView: UIImageView!
     @IBOutlet var monsterImageView: UIImageView!
 
     var monsterArray: [UIImage]!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+    }
 }
