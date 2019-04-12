@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let number = Int.random(in: 0..<10)
     }
 
     @IBAction func gacha() {
